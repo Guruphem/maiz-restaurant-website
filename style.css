@@ -1,82 +1,161 @@
-@import url(https://db.onlinewebfonts.com/c/1d4a19be544417215265a95523bb58c2?family=Cotoris);
+    @import url('https://db.onlinewebfonts.com/c/1d4a19be544417215265a95523bb58c2?family=Cotoris');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-html {
-  font-size: 62.5%;
-}
+    html {
+      font-size: 62.5%;
+    }
 
-body {
-  background-color: #5b0017;
-  font-family: "Cotoris";
-}
+    body {
+      background-color: #5b0017;
+      font-family: "Cotoris";
+    }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 8rem;
-  padding-block-start: 2.6rem;
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 8rem;
+      padding-block-start: 2.6rem;
+      position: relative;
+      z-index: 10;
+    }
 
-.logo img {
-  height: 70px;
-  margin: 0 0 1.4rem .8rem;
-}
+    .logo img {
+      height: 70px;
+      margin: 0 0 1.4rem .8rem;
+    }
 
-.logo+div img {
-  height: 50px;
-}
+    .logo+div img {
+      height: 50px;
+    }
 
-:is(nav, ul) {
-  display: flex;
-  gap: 4rem;
-}
+    :is(nav,
+      ul) {
+      display: flex;
+      gap: 4rem;
+    }
 
-:is(nav, ul) li {
-  list-style: none;
-  padding-block-start: 1.8rem;
-}
+    :is(nav,
+      ul) li {
+      list-style: none;
+      padding-block-start: 1.8rem;
+    }
 
-:is(nav, ul, li) a,
-.book-btn {
-  text-decoration: none;
-  font-size: 2.4rem;
-  color: #fff;
-  transition: all .3s ease-in-out;
-}
+    :is(nav,
+      ul,
+      li) a,
+    .book-btn {
+      text-decoration: none;
+      font-size: 2.4rem;
+      color: #fff;
+      transition: all .3s ease-in-out;
+    }
 
-:is(nav, ul, li) a:hover {
-  color: #cc9d2f;
-}
+    :is(nav,
+      ul,
+      li) a:hover {
+      color: #cc9d2f;
+    }
 
-:is(nav, ul, li) a:active {
-  opacity: .7;
-}
+    :is(nav,
+      ul,
+      li) a:active {
+      opacity: .7;
+    }
 
-header section {
-  margin-block-start: 1.8rem;
-}
+    header section {
+      margin-block-start: 1.8rem;
+    }
 
-.book-btn {
-  background-color: #cc9d2f;
-  color: #5b0017;
-  /* font-weight: 600; */
-  text-transform: capitalize;
-  padding: .8rem 1rem;
-  position: relative;
-}
+    .book-btn {
+      background-color: #cc9d2f;
+      color: #5b0017;
+      text-transform: capitalize;
+      padding: .8rem 1rem;
+      position: relative;
+    }
 
-.btn-icon {
-  height: 54px;
-  position: absolute;
-  bottom: -4px;
-  right: -25px;
-}
+    .btn-icon {
+      height: 54px;
+      position: absolute;
+      bottom: -4px;
+      right: -25px;
+    }
 
-.book-btn:hover {
-  color: #fff;
-}
+    .book-btn:hover {
+      color: #fff;
+    }
+
+    .rectangle-wrapper img {
+      width: 600px;
+      position: absolute;
+      top: 0;
+      left: 7.8rem;
+    }
+
+    .homepage {
+      display: flex;
+      justify-content: space-between;
+      margin-inline: 8rem;
+      margin-block-start: 5rem;
+      position: relative;
+    }
+
+    .homepage-text {
+      position: absolute;
+      top: 6rem;
+    }
+
+    .taste {
+      background-color: #5b0017a6;
+      padding-block-end: .8rem;
+    }
+
+    .homepage-intro h2 {
+      width: 800px;
+      color: #fff;
+      font-size: 10.6rem;
+      font-weight: 500;
+      line-height: 9rem;
+    }
+
+    .homepage-intro p {
+      width: 400px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-block: 3rem;
+    }
+
+    .homepage a {
+      display: inline-block;
+      color: #cc9d2f;
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-decoration: none;
+      border: 2px solid #cc9d2f;
+      padding: 1rem 1.8rem;
+    }
+
+    .circle-vector {
+      display: inline-block;
+      position: absolute;
+      bottom: -25%;
+    }
+
+    .homepage-img {
+      width: 700px;
+    }
+
+    .flower {
+      position: absolute;
+      top: -2.8rem;
+      right: -2.6rem;
+    }
