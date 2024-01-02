@@ -96,7 +96,7 @@
       opacity: .6;
     }
 
-    .rectangle-wrapper img {
+    .rectangle-bg {
       width: 600px;
       position: absolute;
       top: 0;
@@ -133,8 +133,8 @@
       width: 400px;
       color: #fff;
       font-family: 'Inter', sans-serif;
-      font-size: 1.8rem;
-      font-weight: 300;
+      font-size: 2rem;
+      font-weight: 200;
       margin-block: 3rem;
     }
 
@@ -174,4 +174,91 @@
       position: absolute;
       top: -2.8rem;
       right: -2.6rem;
+    }
+
+    .dining-wrapper {
+      position: relative;
+    }
+
+    .dining {
+      display: flex;
+      gap: 7rem;
+      margin-inline: 8rem;
+      margin-block-start: 20rem;
+      position: relative;
+    }
+
+    .dining>img {
+      height: 580px;
+    }
+
+    .dining-container h2 {
+      color: #fff;
+      font-size: 6rem;
+      font-weight: 500;
+    }
+
+    .dining-container p {
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 2rem;
+      font-weight: 200;
+      margin-block: 2rem 6rem;
+    }
+
+    .dining-container a {
+      display: inline-block;
+      background-color: #cc9d2f;
+      font-size: 2.4rem;
+      border: none;
+      color: #5b0017;
+      text-decoration: none;
+      text-transform: capitalize;
+      padding: .8rem 1rem;
+      margin-block-end: 5rem;
+      margin-inline-start: .6rem;
+      position: relative;
+    }
+
+    .button-rec {
+      height: 45px;
+      position: absolute;
+      left: -.6rem;
+    }
+
+    .inner-flex {
+      display: flex;
+      gap: 4rem;
+    }
+
+    .inner-flex img {
+      width: 124px;
+    }
+
+    .dining-container::after {
+      content: "";
+      width: 32%;
+      display: block;
+      border-bottom: 2px solid #cc9d2f;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .dining::after {
+      content: "";
+      height: 50px;
+      width: 50px;
+      display: block;
+      border: 2px solid #cc9d2f;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+    .rectangle-bg2 {
+      width: 530px;
+      position: absolute;
+      top: -5rem;
+      right: 0;
     }
