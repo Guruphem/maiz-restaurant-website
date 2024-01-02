@@ -116,12 +116,12 @@
       top: 6rem;
     }
 
-    .taste {
+    .intro-wrapper {
       background-color: #5b0017a6;
-      padding-block-end: .8rem;
+      padding-block-end: 1.4rem;
     }
 
-    .homepage-intro h2 {
+    .homepage-text h2 {
       width: 800px;
       color: #fff;
       font-size: 10.6rem;
@@ -129,7 +129,7 @@
       line-height: 9rem;
     }
 
-    .homepage-intro p {
+    .homepage-text p {
       width: 400px;
       color: #fff;
       font-family: 'Inter', sans-serif;
@@ -138,7 +138,7 @@
       margin-block: 3rem;
     }
 
-    .homepage a {
+    .homepage-text a {
       display: inline-block;
       color: #cc9d2f;
       font-size: 2rem;
@@ -156,11 +156,11 @@
       border-color: #fff;
     }
 
-    .homepage a:active {
+    .homepage-text a:active {
       opacity: .6;
     }
 
-    .circle-vector {
+    .circled-vector {
       display: inline-block;
       position: absolute;
       bottom: -25%;
