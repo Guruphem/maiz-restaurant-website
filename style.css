@@ -266,12 +266,13 @@
       font-family: 'Inter', sans-serif;
       margin-inline: 8rem;
       margin-block: 15rem 5rem;
+      position: relative;
     }
 
     .testimonial {
       background: #cc9d2f;
-      padding-block: 5rem;
-      padding-inline: 8rem 4rem;
+      padding-block: 8rem;
+      padding-inline: 10rem 6rem;
     }
 
     article {
@@ -282,7 +283,7 @@
       color: #243054;
       font-size: 1.8rem;
       line-height: 3rem;
-      margin-block-end: 6.4rem;
+      margin-block-end: 7rem;
       position: relative;
     }
 
@@ -302,15 +303,6 @@
       position: relative;
     }
 
-    figure::before {
-      content: "";
-      display: block;
-      width: 8%;
-      border-top: 3px solid #243054;
-      position: absolute;
-      bottom: -.2rem;
-    }
-
     figcaption p:first-of-type {
       color: #243054;
       font-size: 1.2rem;
@@ -321,4 +313,56 @@
     figcaption p:last-of-type {
       color: #243054;
       font-size: 1.1rem;
+    }
+
+    figure::before {
+      content: "";
+      display: block;
+      width: 8%;
+      border-top: 3px solid #243054;
+      position: absolute;
+      bottom: -.2rem;
+    }
+
+    .testimonial-icon {
+      position: absolute;
+      left: 0;
+      bottom: 2.8rem;
+    }
+
+    .vid-img {
+      height: 438px;
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+      position: relative;
+      right: .2rem;
+    }
+
+    .testimonial-wrapper a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      background: #fff;
+      border-radius: 50%;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+      position: absolute;
+      right: 28%;
+      top: 50%;
+    }
+
+    .testimonial-wrapper a i {
+      color: #000;
+      font-size: 2.4rem;
+    }
+
+    .testimonial-wrapper a:hover {
+      background: #000;
+    }
+
+    .testimonial-wrapper a:hover>i {
+      color: #fff;
     }
