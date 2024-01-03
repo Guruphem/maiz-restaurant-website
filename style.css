@@ -327,7 +327,7 @@
     .testimonial-icon {
       position: absolute;
       left: 0;
-      bottom: 2.8grem;
+      bottom: 2.8rem;
     }
 
     .vid-img {
@@ -336,7 +336,7 @@
       object-fit: cover;
       object-position: top;
       position: relative;
-      right: .2rem;
+      right: .1rem;
     }
 
     .testimonial-wrapper a {
