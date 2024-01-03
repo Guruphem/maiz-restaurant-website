@@ -260,3 +260,58 @@
       top: -5rem;
       right: 0;
     }
+
+    .testimonial-wrapper {
+      display: flex;
+      font-family: 'Inter', sans-serif;
+      margin-inline: 8rem;
+      margin-block: 15rem 5rem;
+    }
+
+    .testimonial {
+      background: #cc9d2f;
+      padding-block: 5rem;
+      padding-inline: 8rem 4rem;
+    }
+
+    article {
+      width: 320px;
+    }
+
+    article>p {
+      color: #243054;
+      font-size: 1.8rem;
+      line-height: 3rem;
+      margin-block-end: 6.4rem;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #00646D;
+      padding-block-end: 1.5rem;
+      position: relative;
+    }
+
+    figure::before {
+      content: "";
+      display: block;
+      width: 8%;
+      border-top: 3px solid #243054;
+      position: absolute;
+      bottom: -.2rem;
+    }
+
+    figcaption p:first-of-type {
+      color: #243054;
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+    }
+
+    figcaption p:last-of-type {
+      color: #243054;
+      font-size: 1.1rem;
+    }
