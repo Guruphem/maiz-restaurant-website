@@ -283,6 +283,13 @@
       font-size: 1.8rem;
       line-height: 3rem;
       margin-block-end: 6.4rem;
+      position: relative;
+    }
+
+    article>p img {
+      position: absolute;
+      left: -2rem;
+      top: -1rem;
     }
 
     figure {
