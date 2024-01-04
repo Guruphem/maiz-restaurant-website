@@ -34,21 +34,17 @@
       height: 50px;
     }
 
-    :is(nav,
-      ul) {
+    header nav ul {
       display: flex;
       gap: 4rem;
     }
 
-    :is(nav,
-      ul) li {
+    header nav ul li {
       list-style: none;
       padding-block-start: 1.8rem;
     }
 
-    :is(nav,
-      ul,
-      li) a,
+    header nav ul li a,
     .book-btn {
       text-decoration: none;
       font-size: 2.4rem;
@@ -56,15 +52,13 @@
       transition: all .3s ease-in-out;
     }
 
-    :is(nav,
+    header :is(nav,
       ul,
       li) a:hover {
       color: #cc9d2f;
     }
 
-    :is(nav,
-      ul,
-      li) a:active {
+    header nav ul li a:active {
       opacity: .7;
     }
 
