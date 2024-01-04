@@ -212,10 +212,19 @@
       color: #5b0017;
       text-decoration: none;
       text-transform: capitalize;
-      padding: .8rem 1rem;
       margin-block-end: 5rem;
       margin-inline-start: .6rem;
+      padding: .8rem 1rem;
+      transition: all .3s ease-in-out;
       position: relative;
+    }
+
+    .dining-container a:hover {
+      color: #fff;
+    }
+
+    .dining-container a:active {
+      opacity: .6;
     }
 
     .button-rec {
