@@ -88,11 +88,15 @@
       right: -25px;
     }
 
-    .book-btn:hover {
+    .book-btn:hover,
+    .dining-container a:hover,
+    .our-menu-content a:hover {
       color: #fff;
     }
 
-    .book-btn:active {
+    .book-btn:active,
+    .dining-container a:active,
+    .our-menu-content a:active {
       opacity: .6;
     }
 
@@ -204,7 +208,8 @@
       margin-block: 2rem 6rem;
     }
 
-    .dining-container a {
+    .dining-container a,
+    .our-menu-content a {
       display: inline-block;
       background-color: #cc9d2f;
       font-size: 2.4rem;
@@ -217,14 +222,6 @@
       padding: .8rem 1rem;
       transition: all .3s ease-in-out;
       position: relative;
-    }
-
-    .dining-container a:hover {
-      color: #fff;
-    }
-
-    .dining-container a:active {
-      opacity: .6;
     }
 
     .button-rec {
@@ -274,7 +271,7 @@
       display: flex;
       font-family: 'Inter', sans-serif;
       margin-inline: 8rem;
-      margin-block: 15rem 5rem;
+      margin-block: 15rem 8rem;
       position: relative;
     }
 
@@ -374,4 +371,28 @@
 
     .testimonial-wrapper a:hover>i {
       color: #fff;
+    }
+
+    .our-menu-bg {
+      background-image: url(./img/bg-image.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+
+    .our-menu-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .our-menu-content h2 {
+      color: #fff;
+      font-size: 6rem;
+      font-weight: 500;
+      text-align: center;
+      max-width: 760px;
+      margin-block-end: 5rem;
     }
