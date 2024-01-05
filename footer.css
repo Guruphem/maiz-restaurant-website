@@ -29,6 +29,15 @@
        font-size: 1.8rem;
        color: #5b0017;
        text-decoration: none;
+       transition: all .3s ease-in-out;
+   }
+
+   .footer-navigation nav ul li a:hover {
+       color: #fff;
+   }
+
+   .footer-navigation nav ul li a:active {
+       opacity: .6;
    }
 
    .footer-base {
