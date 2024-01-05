@@ -1,0 +1,71 @@
+   header {
+       display: flex;
+       justify-content: space-between;
+       margin: 0 8rem;
+       padding-block-start: 2.6rem;
+       position: relative;
+       z-index: 10;
+   }
+
+   .logo img {
+       height: 70px;
+       margin: 0 0 1.4rem .8rem;
+   }
+
+   .logo+div img {
+       height: 50px;
+   }
+
+   header nav ul {
+       display: flex;
+       gap: 4rem;
+   }
+
+   header nav ul li {
+       list-style: none;
+       padding-block-start: 1.8rem;
+   }
+
+   header nav ul li a,
+   .book-btn {
+       text-decoration: none;
+       font-size: 2.4rem;
+       color: #fff;
+       transition: all .3s ease-in-out;
+   }
+
+   header :is(nav, ul, li) a:hover {
+       color: #cc9d2f;
+   }
+
+   header nav ul li a:active {
+       opacity: .7;
+   }
+
+   header section {
+       margin-block-start: 1.8rem;
+   }
+
+   .book-btn {
+       background-color: #cc9d2f;
+       color: #5b0017;
+       text-transform: capitalize;
+       padding: .8rem 1rem;
+       position: relative;
+       transition: all .3s ease-in-out;
+   }
+
+   .btn-icon {
+       height: 54px;
+       position: absolute;
+       bottom: -4px;
+       right: -25px;
+   }
+
+   .book-btn:hover {
+       color: #fff;
+   }
+
+   .book-btn:active {
+       opacity: .6;
+   }
