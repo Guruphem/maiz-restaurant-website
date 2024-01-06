@@ -17,7 +17,7 @@
     }
 
     .rectangle-bg {
-        width: 600px;
+        width: 650px;
         position: absolute;
         top: 0;
         left: 7.8rem;
@@ -189,7 +189,7 @@
     .rectangle-bg2 {
         width: 530px;
         position: absolute;
-        top: -5rem;
+        top: -8rem;
         right: 0;
     }
 
