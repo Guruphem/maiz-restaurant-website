@@ -7,13 +7,8 @@
        z-index: 10;
    }
 
-   .logo img {
-       height: 70px;
-       margin: 0 0 1.4rem .8rem;
-   }
-
-   .logo+div img {
-       height: 50px;
+   header>a img {
+       height: 130px;
    }
 
    header nav ul {
