@@ -29,12 +29,13 @@
        transition: all .3s ease-in-out;
    }
 
-   header :is(nav, ul, li) a:hover {
+   header nav ul li a:hover {
        color: #cc9d2f;
    }
 
-   header nav ul li a:active {
-       opacity: .7;
+   header nav ul li a:active,
+   .book-btn:active {
+       opacity: .6;
    }
 
    header section {
@@ -47,7 +48,6 @@
        text-transform: capitalize;
        padding: .8rem 1rem;
        position: relative;
-       transition: all .3s ease-in-out;
    }
 
    .btn-icon {
@@ -59,8 +59,4 @@
 
    .book-btn:hover {
        color: #fff;
-   }
-
-   .book-btn:active {
-       opacity: .6;
    }
