@@ -1,0 +1,149 @@
+     @import url('https://db.onlinewebfonts.com/c/1d4a19be544417215265a95523bb58c2?family=Cotoris');
+     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
+
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     html {
+         font-size: 62.5%;
+     }
+
+     body {
+         background-color: #CC9D2F;
+         font-family: 'Inter', sans-serif;
+     }
+
+     header {
+         display: flex;
+         justify-content: space-between;
+         margin: 0 8rem;
+         padding-block-start: 2.6rem;
+         position: relative;
+         z-index: 10;
+     }
+
+     header>a img {
+         height: 130px;
+     }
+
+     header nav ul {
+         display: flex;
+         gap: 4rem;
+     }
+
+     header nav ul li {
+         list-style: none;
+         padding-block-start: 1.8rem;
+     }
+
+     header nav ul li a,
+     .book-btn {
+         text-decoration: none;
+         font-size: 2.4rem;
+         font-family: "Cotoris";
+         color: #5b0017;
+         transition: all .3s ease-in-out;
+     }
+
+     header nav ul li a:hover,
+     .book-btn:hover {
+         color: #fff;
+     }
+
+     header nav ul li a:active,
+     .book-btn:active {
+         opacity: .6;
+     }
+
+     header section {
+         margin-block-start: 1.8rem;
+     }
+
+     .book-btn {
+         background-color: #5b0017;
+         color: #cc9d2f;
+         text-transform: capitalize;
+         padding: .8rem 1rem;
+         position: relative;
+     }
+
+     .btn-icon {
+         height: 54px;
+         position: absolute;
+         bottom: -4px;
+         right: -25px;
+     }
+
+     .rectangle-bg {
+         width: 650px;
+         position: absolute;
+         top: 0;
+         left: 7.8rem;
+     }
+
+     .our-story-wrapper {
+         margin-block: 13rem;
+         margin-inline-start: 16rem;
+         display: flex;
+         gap: 13rem;
+     }
+
+     .inner-flex {
+         display: flex;
+         gap: 5rem;
+     }
+
+     .inner-flex img {
+         height: 400px;
+     }
+
+     .inner-flex img:first-of-type {
+         margin-top: 5rem;
+     }
+
+     .first-container h2 {
+         color: #5b0017;
+         font-size: 5rem;
+         font-weight: 500;
+         font-family: "Cotoris";
+     }
+
+     .first-container p {
+         color: #5b0017;
+         font-size: 1.6rem;
+         max-width: 410px;
+         margin-block: 2.4rem 12rem;
+     }
+
+     .second-container {
+         padding-block-start: 2rem;
+     }
+
+     .second-container h2 {
+         display: block;
+         color: #fff;
+         font-size: 2.8rem;
+         font-weight: 500;
+         font-family: "Cotoris";
+         margin-block-end: 3rem;
+     }
+
+     .second-container p {
+         color: #5b0017;
+         font-size: 1.8rem;
+         font-weight: 500;
+         max-width: 430px;
+     }
+
+     .second-container p:first-of-type span {
+         display: inline-block;
+         margin-block: 3rem 4rem;
+     }
+
+     .second-container p:last-of-type span {
+         display: inline-block;
+         margin-block: 3rem;
+     }
