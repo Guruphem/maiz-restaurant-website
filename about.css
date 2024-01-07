@@ -197,3 +197,63 @@
          font-size: 1.4rem;
          font-family: 'Poppins', sans-serif;
      }
+
+     .map {
+         background: #243054;
+         padding-block: 6rem;
+         position: relative;
+     }
+
+     .map-flex {
+         display: flex;
+         margin-inline: 16rem;
+         position: relative;
+     }
+
+     .map-flex div {
+         background: #5B0017;
+         width: 45%;
+         padding-inline-start: 6rem;
+         padding-block: 4rem;
+     }
+
+     .map-flex h3 {
+         color: #CC9D2F;
+         font-family: "Cotoris";
+         font-size: 2rem;
+         font-weight: 500;
+         padding-block-end: .6rem;
+     }
+
+     .map-flex p,
+     address {
+         color: #fff;
+         font-size: 1.4rem;
+         font-weight: 200;
+         line-height: 1.6;
+         max-width: 200px;
+     }
+
+     time {
+         display: block;
+     }
+
+     .friday {
+         padding-block-end: 2rem;
+     }
+
+     address {
+         padding-block-end: 2rem;
+     }
+
+     .map-flex img {
+         height: 392px;
+         width: 100%;
+     }
+
+     .map-icon {
+         height: 520px;
+         right: 0;
+         position: absolute;
+         top: 0;
+     }
