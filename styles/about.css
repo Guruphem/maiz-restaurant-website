@@ -1,0 +1,260 @@
+     @import url('https://db.onlinewebfonts.com/c/1d4a19be544417215265a95523bb58c2?family=Cotoris');
+     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     html {
+         font-size: 62.5%;
+     }
+
+     body {
+         background-color: #CC9D2F;
+         font-family: 'Inter', sans-serif;
+     }
+
+     header {
+         display: flex;
+         justify-content: space-between;
+         margin: 0 8rem;
+         padding-block-start: 2.6rem;
+         position: relative;
+         z-index: 10;
+     }
+
+     header>a img {
+         height: 130px;
+     }
+
+     header nav ul {
+         display: flex;
+         gap: 4rem;
+     }
+
+     header nav ul li {
+         list-style: none;
+         padding-block-start: 1.8rem;
+     }
+
+     header nav ul li a,
+     .book-btn {
+         text-decoration: none;
+         font-size: 2.4rem;
+         font-family: "Cotoris";
+         color: #5b0017;
+         transition: all .3s ease-in-out;
+     }
+
+     header nav ul li a:hover,
+     .book-btn:hover {
+         color: #fff;
+     }
+
+     header nav ul li a:active,
+     .book-btn:active {
+         opacity: .6;
+     }
+
+     header section {
+         margin-block-start: 1.8rem;
+     }
+
+     .book-btn {
+         background-color: #5b0017;
+         color: #cc9d2f;
+         text-transform: capitalize;
+         padding: .8rem 1rem;
+         position: relative;
+     }
+
+     .btn-icon {
+         height: 54px;
+         position: absolute;
+         bottom: -4px;
+         right: -25px;
+     }
+
+     .rectangle-bg {
+         width: 650px;
+         position: absolute;
+         top: 0;
+         left: 7.8rem;
+     }
+
+     .our-story-wrapper {
+         display: flex;
+         gap: 13rem;
+         margin-block-start: 13rem;
+         margin-inline-start: 16rem;
+         position: relative;
+     }
+
+     .inner-flex {
+         display: flex;
+         gap: 5rem;
+     }
+
+     .inner-flex img {
+         height: 400px;
+     }
+
+     .inner-flex img:first-of-type {
+         margin-top: 5rem;
+     }
+
+     .first-container h2 {
+         color: #5b0017;
+         font-size: 5rem;
+         font-weight: 500;
+         font-family: "Cotoris";
+     }
+
+     .first-container p {
+         color: #5b0017;
+         font-size: 1.6rem;
+         max-width: 410px;
+         margin-block: 2.4rem 12rem;
+     }
+
+     .second-container {
+         padding-block-start: 2rem;
+     }
+
+     .second-container h2 {
+         display: block;
+         color: #fff;
+         font-size: 2.8rem;
+         font-weight: 500;
+         font-family: "Cotoris";
+         margin-block-end: 3rem;
+     }
+
+     .second-container p {
+         color: #5b0017;
+         font-size: 1.8rem;
+         font-weight: 500;
+         max-width: 430px;
+     }
+
+     .second-container p:first-of-type span {
+         display: inline-block;
+         margin-block: 3rem 4rem;
+     }
+
+     .second-container p:last-of-type span {
+         display: inline-block;
+         margin-block: 3rem;
+     }
+
+     .milestone {
+         background-color: #5B0017;
+         margin-inline: 16rem;
+         margin-block: 5rem;
+         padding-inline: 6rem;
+         padding-block: 8rem;
+     }
+
+     .milestone-flex {
+         display: flex;
+         border-top: 1px dashed #ffffff3b;
+     }
+
+     .milestone-flex div {
+         position: relative;
+     }
+
+     .milestone-flex div::before {
+         content: "";
+         display: block;
+         border-top: 3px solid #CC9D2F;
+         width: 12%;
+         position: absolute;
+         top: -.2rem;
+     }
+
+     .milestone-flex h2 {
+         color: #fff;
+         font-size: 2rem;
+         font-weight: 500;
+         font-family: 'Poppins', sans-serif;
+         padding-block-start: 1rem;
+     }
+
+     .milestone-flex h3 {
+         color: #fff;
+         font-size: 1.6rem;
+         font-family: 'Playfair Display', serif;
+         word-spacing: .4rem;
+         padding-block: .8rem 1.4rem;
+     }
+
+     .milestone-flex p {
+         color: #CC9D2F;
+         font-size: 1.4rem;
+         font-family: 'Poppins', sans-serif;
+     }
+
+     .map {
+         background: #243054;
+         padding-block: 6rem;
+         position: relative;
+         overflow: hidden;
+     }
+
+     .map-flex {
+         display: flex;
+         margin-inline: 16rem;
+         position: relative;
+     }
+
+     .map-flex div {
+         background: #5B0017;
+         width: 45%;
+         padding-inline-start: 6rem;
+         padding-block: 4rem;
+     }
+
+     .map-flex h3 {
+         color: #CC9D2F;
+         font-family: "Cotoris";
+         font-size: 2rem;
+         font-weight: 500;
+         padding-block-end: .6rem;
+     }
+
+     .map-flex p,
+     address {
+         color: #fff;
+         font-size: 1.4rem;
+         font-weight: 200;
+         line-height: 1.6;
+         max-width: 200px;
+     }
+
+     time {
+         display: block;
+     }
+
+     .friday {
+         padding-block-end: 2rem;
+     }
+
+     address {
+         padding-block-end: 2rem;
+     }
+
+     .map-flex img {
+         height: 392px;
+         width: 100%;
+     }
+
+     .map-icon {
+         height: 520px;
+         right: 0;
+         position: absolute;
+         top: 0;
+     }
