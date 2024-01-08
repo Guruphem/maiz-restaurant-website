@@ -202,6 +202,7 @@
          background: #243054;
          padding-block: 6rem;
          position: relative;
+         overflow: hidden;
      }
 
      .map-flex {
