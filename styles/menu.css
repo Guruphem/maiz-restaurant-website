@@ -63,3 +63,29 @@
       font-family: 'Inter', sans-serif;
       font-weight: 300;
   }
+
+  .menu {
+      margin-inline-start: 16rem;
+      margin-block-start: 5rem;
+  }
+
+  .menu-flex {
+      display: flex;
+      gap: 2rem;
+      position: absolute;
+  }
+
+  .menu-flex a {
+      color: #B8B8B8;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      text-decoration: none;
+      transition: color .3s ease-in-out;
+  }
+
+  .menu-flex a.all,
+  .menu-flex a:hover {
+      color: #fff;
+  }
