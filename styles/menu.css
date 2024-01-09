@@ -1,16 +1,65 @@
   @import url('https://db.onlinewebfonts.com/c/1d4a19be544417215265a95523bb58c2?family=Cotoris');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
+
   * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
   }
-  
+
   html {
       font-size: 62.5%;
   }
-  
+
   body {
       background-color: #5b0017;
       font-family: "Cotoris";
+  }
+
+  .rectangle-bg {
+      width: 650px;
+      position: absolute;
+      top: 0;
+      left: 7.8rem;
+  }
+
+  .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-block-start: 8rem;
+      margin-inline: 16rem 13rem;
+  }
+
+  .flex-container div p {
+      display: inline-block;
+      color: #CC9D2F;
+      font-family: 'Inter', sans-serif;
+      font-size: 2rem;
+      position: relative;
+  }
+
+  .flex-container div p::before {
+      content: "";
+      width: 40px;
+      border-top: 1px solid #fff;
+      position: absolute;
+      right: -5rem;
+      top: 1.4rem;
+  }
+
+  .flex-container h2 {
+      width: 196px;
+      color: #fff;
+      font-size: 5rem;
+      font-weight: 500;
+      margin-block-start: 2rem;
+  }
+
+  .flex-container article p {
+      max-width: 450px;
+      color: #B8B8B8;
+      font-size: 2rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
   }
