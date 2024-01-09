@@ -28,7 +28,7 @@
       justify-content: space-between;
       align-items: center;
       margin-block-start: 8rem;
-      margin-inline: 16rem 13rem;
+      margin-inline: 14rem;
   }
 
   .flex-container div p {
@@ -65,14 +65,14 @@
   }
 
   .menu {
-      margin-inline-start: 16rem;
       margin-block-start: 5rem;
+      margin-inline: 14rem;
+      position: relative;
   }
 
   .menu-flex {
       display: flex;
       gap: 2rem;
-      position: absolute;
   }
 
   .menu-flex a {
@@ -88,4 +88,25 @@
   .menu-flex a.all,
   .menu-flex a:hover {
       color: #fff;
+  }
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 360px);
+      gap: 2rem;
+      margin-block: 4rem;
+  }
+
+  .grid-item {
+      background-color: #243054;
+      overflow: hidden;
+  }
+
+  .grid-item h3 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding-block: 1.6rem;
+      padding-inline-start: 3rem;
   }
