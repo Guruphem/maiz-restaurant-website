@@ -184,6 +184,8 @@
 
   .map-flex img {
       height: 368px;
+      background-blend-mode: luminosity;
+      filter: saturate(26.9) sepia(0.8) hue-rotate(251deg);
       width: 65%;
       position: relative;
       left: -.1rem;
