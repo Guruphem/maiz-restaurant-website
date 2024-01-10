@@ -41,20 +41,20 @@
    }
 
    .footer-base {
-       display: flex;
-       align-items: center;
-       gap: 31rem;
        padding-block: 1.6rem;
-       padding-inline-start: 12rem;
+       position: relative;
    }
 
    .footer-base p {
        color: #243054;
        font-size: 1.4rem;
        font-family: 'Poppins', sans-serif;
+       position: absolute;
+       left: 14rem;
    }
 
    .footer-socials {
        display: flex;
+       justify-content: center;
        gap: 2rem;
    }
