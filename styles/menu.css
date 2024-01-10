@@ -114,7 +114,7 @@
   .show-more-btn-continer {
       display: flex;
       justify-content: center;
-      margin-block: 4rem;
+      margin-block-start: 4rem;
   }
 
   .show-more-btn {
@@ -133,4 +133,63 @@
 
   .show-more-btn:active {
       opacity: .6;
+  }
+
+  .map {
+      margin-block: 8rem;
+      position: relative;
+  }
+
+  .map-flex {
+      display: flex;
+      margin-inline: 14rem 9rem;
+      position: relative;
+  }
+
+  .map-flex div {
+      background: #243054;
+      width: 35%;
+      padding-inline-start: 6rem;
+      padding-block: 4rem;
+  }
+
+  .map-flex h3 {
+      color: #CC9D2F;
+      font-family: "Cotoris";
+      font-size: 2rem;
+      font-weight: 500;
+      padding-block-end: .4rem;
+  }
+
+  .map-flex p,
+  address {
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 200;
+      line-height: 1.6;
+      max-width: 200px;
+  }
+
+  time {
+      display: block;
+  }
+
+  .friday {
+      padding-block-end: 1rem;
+  }
+
+  address {
+      padding-block-end: 1rem;
+  }
+
+  .map-flex img {
+      height: 368px;
+      width: 65%;
+  }
+
+  .map-icon {
+      height: 480px;
+      right: 0;
+      position: absolute;
+      top: -7rem;
   }
