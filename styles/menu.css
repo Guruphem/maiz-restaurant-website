@@ -92,7 +92,7 @@
 
   .grid-container {
       display: grid;
-      grid-template-columns: repeat(3, 360px);
+      grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
       margin-block-start: 4rem;
   }
@@ -142,7 +142,7 @@
 
   .map-flex {
       display: flex;
-      margin-inline: 14rem 9rem;
+      margin-inline: 14rem;
       position: relative;
   }
 
@@ -185,6 +185,8 @@
   .map-flex img {
       height: 368px;
       width: 65%;
+      position: relative;
+      left: -.1rem;
   }
 
   .map-icon {
